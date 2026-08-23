@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index:3;
+}
+.nav {
+  background:linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  position: relative; 
+  color:#38bdf8;
+}
+
+.tagline {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap:0.5rem;
+
+
+}
+.logo img{
+    width:3rem;
+    height:3rem;
+    border-radius:50%;
+}
+.options{
+   margin-left: auto;
+   padding:0.5rem;
+   background-color:red;
+   border-radius:5%;
+}
+.exit{
+    color:#fff;
+
+}
+
+.templates{
+    border:2px solid black;
+    padding:1rem;
+    width:50%;
+    margin-bottom:1rem;
+    
+
+
+
+}
+.template_opts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+.temp_options{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    border:1px solid black;
+    width:15rem;
+    height:15rem;
+    background-color: #1e293b;
+    border-radius:5%;
+    text-align: center;
+
+}
+.temp_options button{
+    background-color:#38bdf8;
+}
+.temp_options h2{
+    color: #38bdf8;
+}
+
+.main{
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    flex-direction:column;
+}
+.company_form{
+    width:50%;
+}
+.company_form_head{
+    text-align: center;
+}
+.company_form_head h1{
+    color: #38bdf8;
+}
+.recent_bill{
+    width:20rem;
+    height:20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: #1e293b;
+
+}
+.recent_templates{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
+    width:100%;
+    padding:2rem;
+}
+.recent_templates_head{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.recent_templates_main{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+
+}
