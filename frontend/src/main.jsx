@@ -7,8 +7,10 @@ import Signin from './pages/Signin.jsx'
 import Signup from './pages/Signup.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import Form from './pages/FormInput.jsx'
+import Form_doc from './pages/FormoneInput.jsx'
 import New from './pages/Forget.jsx'
 import Bill from './pages/Template.jsx'
+import Prescription from './pages/Templatedoc.jsx'
 import { Toaster } from "react-hot-toast";
 
 const router=createBrowserRouter([
@@ -29,6 +31,11 @@ const router=createBrowserRouter([
     errorElement:<Error/>
   },
   {
+    path:'/form_prescription',
+    element:<Form_doc/>,
+    errorElement:<Error/>
+  },
+  {
     path:'/forget_password',
     element:<New/>,
     errorElement:<Error/>
@@ -37,6 +44,11 @@ const router=createBrowserRouter([
   {
     path:'/template',
     element:<Bill/>,
+    errorElement:<Error/>
+  },
+  {
+    path:'/templatedoc',
+    element:< Prescription/>,
     errorElement:<Error/>
   },
   {

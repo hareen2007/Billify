@@ -140,7 +140,7 @@ function Dashboard(){
                 </div>
                 <div className="temp_options">
                     <h2>Doctor Prescription</h2>
-                    <button onClick={()=>navigate('/form')}>Create here</button>
+                    <button onClick={()=>navigate('/form_prescription')}>Create here</button>
                 </div>
             </div>
         </div>

@@ -95,7 +95,6 @@ alert("PDF Saved");
     <>
       <div className="invoice-actions">
         <button onClick={downloadPDF}>Download PDF</button>
-        <button onClick={createPDF}>Save PDF</button>
       </div>
 
       <div className="invoice">
