@@ -1,7 +1,6 @@
 import '../styles/Dashboard.css'
 import '../styles/FormInput.css'
 import { useNavigate } from "react-router-dom";
-import Background from "./Background.jsx";
 import { Link } from 'react-router-dom'
 import Foot from './Footer.jsx';
 import logo from  '../assets/01.png';
