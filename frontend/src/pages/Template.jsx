@@ -76,7 +76,7 @@ html2pdf().set(opt).from(document.querySelector(".invoice")).save();
 };
 const createPDF=async()=>{
   await fetch(
-  "http://billify1.vercel.app/api/pdf/generate-pdf",
+  "https://billify-rq6c.onrender.com/api/pdf/generate-pdf",
   {
   method:"POST",
   headers:{

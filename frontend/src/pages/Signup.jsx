@@ -36,7 +36,7 @@ function Signup() {
     console.log(signup.user_email);
     try {
       const res = await fetch(
-        "http://billify1.vercel.app/api/auth/signup",
+        "https://billify-rq6c.onrender.com/api/auth/signup",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -111,8 +111,8 @@ function Signup() {
 
         {/* Bottom */}
         <div className="container_bottom">
-            <span className='psw'><Link to="http://billify1.vercel.app/login">Already have an account? Login</Link></span>
-            <span className='psw'><Link to="http://billify1.vercel.app/">Go to Homepage</Link></span>
+            <span className='psw'><Link to="/login">Already have an account? Login</Link></span>
+            <span className='psw'><Link to="/">Go to Homepage</Link></span>
         </div>
 
       </form>

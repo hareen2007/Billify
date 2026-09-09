@@ -49,7 +49,7 @@ function Signin(){
         localStorage.setItem("user_name",data.user_name);
         toast.success("Welcome back!!!");
         setTimeout(()=>{
-          window.location.href="http://billify1.vercel.app/dashboard";
+          window.location.href="/dashboard";
         },4000);
 
       }catch(err){
@@ -87,10 +87,10 @@ function Signin(){
             </div>
 
             <div className="container_bottom">
-              <span className='psw'><Link to="http://billify1.vercel.app/signup">Don't have an account? Signup</Link></span>
+              <span className='psw'><Link to="/signup">Don't have an account? Signup</Link></span>
               <div className='container_bottom1'>
-                <span className='psw'><Link to="http://billify1.vercel.app/forget_password">Forgot password?</Link></span>
-                <span className='psw'><Link to="http://billify1.vercel.app/">Go to Homepage</Link></span>
+                <span className='psw'><Link to="/forget_password">Forgot password?</Link></span>
+                <span className='psw'><Link to="/">Go to Homepage</Link></span>
               </div>
             </div>
           </form>

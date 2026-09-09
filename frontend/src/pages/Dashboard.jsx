@@ -72,7 +72,7 @@ function Dashboard(){
             <h1>Simplify. Billify. Amplify</h1>
         </div>
         <div className="options">
-            <Link to='http://billify1.vercel.app/' className='exit'>SignOut</Link>
+            <Link to='/' className='exit'>SignOut</Link>
         </div>
     </div>
     <div className='main'>
@@ -135,11 +135,11 @@ function Dashboard(){
             <div className="template_opts">
                 <div className="temp_options">
                     <h2>Inventory bill</h2>
-                    <button onClick={()=>navigate('http://billify1.vercel.app/form')}>Create here</button>
+                    <button onClick={()=>navigate('/form')}>Create here</button>
                 </div>
                 <div className="temp_options">
                     <h2>Doctor Prescription</h2>
-                    <button onClick={()=>navigate('http://billify1.vercel.app/form_prescription')}>Create here</button>
+                    <button onClick={()=>navigate('/form_prescription')}>Create here</button>
                 </div>
             </div>
         </div>

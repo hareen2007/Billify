@@ -50,7 +50,7 @@ function FormoneInput(){
 
   setBillData(generatedPrescription);
 
-  navigate("http://billify1.vercel.app/templatedoc", {
+  navigate("/templatedoc", {
     state: generatedPrescription,
   });
     };
