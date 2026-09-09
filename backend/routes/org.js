@@ -2,7 +2,7 @@ const userInput=require("../models/User.js");
 const express=require("express");
 const router=express.Router();
 
-router.post("/dashboard",async(req,res)=>{
+router.post("http://billify1.vercel.app/dashboard",async(req,res)=>{
     try{
         const {comp_name,
             comp_address,
