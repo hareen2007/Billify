@@ -24,7 +24,7 @@ function Signin(){
           e.preventDefault();
       try{
         const res=await fetch(
-          "http://billify1.vercel.app/api/auth/login",
+          "http://billify-rq6c.onrender.com/api/auth/login",
           {
             method: "POST",
             headers: {"Content-Type":"application/json"},

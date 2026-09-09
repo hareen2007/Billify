@@ -4,7 +4,7 @@ const router=express.Router();
 const bcrypt=require("bcrypt");
 const jwt=require('jsonwebtoken');
 
-router.post("http://billify1.vercel.app/signup",async (req,res) => {
+router.post("/signup",async (req,res) => {
     try{
         const {user_name,user_email,passwd}=req.body;
         const existingUser=await User.findOne({user_name:user_name});
@@ -27,7 +27,7 @@ router.post("http://billify1.vercel.app/signup",async (req,res) => {
     
 });
 
-router.post("http://billify1.vercel.app/login",async(req,res)=>{
+router.post("/login",async(req,res)=>{
     try{
         const {user_name,passwd}=req.body;
         const existingUser=await User.findOne({user_name:user_name});
