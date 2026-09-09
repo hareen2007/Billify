@@ -27,7 +27,7 @@ function Dashboard(){
         e.preventDefault();
         try{
                 const res = await fetch(
-            "http://localhost:5000/api/comp_details/dashboard",
+            "http:/billify1.vercel.app/api/comp_details/dashboard",
             {
             method: "POST",
             headers: { "Content-Type": "application/json" },
