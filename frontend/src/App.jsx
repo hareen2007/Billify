@@ -1,10 +1,7 @@
 import "./styles/App.css";
-import { useState } from "react";
-import { Link } from "react-router-dom";
 import Foot from "./pages/Footer.jsx";
-import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-
+import {logo} from "./assets/01.png"
 function App() {
   const nav = useNavigate();
 
@@ -13,7 +10,7 @@ function App() {
       <section className="head_bar">
         <div className="head_m">
           <div className="logo">
-            <img src="src/assets/01.png" alt="" />
+            <img src={logo} alt="" />
             <h1 id="head_main">Billify</h1>
           </div>
           <div id="options">

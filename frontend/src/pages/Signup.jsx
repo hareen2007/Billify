@@ -36,7 +36,7 @@ function Signup() {
     console.log(signup.user_email);
     try {
       const res = await fetch(
-        "http://localhost:5000/api/auth/signup",
+        "http://billify1.vercel.app/api/auth/signup",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
