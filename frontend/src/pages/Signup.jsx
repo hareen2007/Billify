@@ -111,8 +111,8 @@ function Signup() {
 
         {/* Bottom */}
         <div className="container_bottom">
-            <span className='psw'><Link to="/login">Already have an account? Login</Link></span>
-            <span className='psw'><Link to="/">Go to Homepage</Link></span>
+            <span className='psw'><Link to="http://billify1.vercel.app/login">Already have an account? Login</Link></span>
+            <span className='psw'><Link to="http://billify1.vercel.app/">Go to Homepage</Link></span>
         </div>
 
       </form>

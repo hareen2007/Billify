@@ -72,7 +72,7 @@ function Templatedoc() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/pdf/generate-pdf",
+        "http://billify1.vercel.appapi/pdf/generate-pdf",
         {
           method: "POST",
           headers: {

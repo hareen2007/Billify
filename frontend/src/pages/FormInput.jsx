@@ -48,7 +48,7 @@ function FormInput(){
         items
     };
     setBillData(generatedBill);
-    navigate("/template", {
+    navigate("http://billify1.vercel.app/template", {
     state: generatedBill,
   });
     };
