@@ -18,6 +18,9 @@ let connectDB = async function(){
         console.log(err);
     }
 }
+app.get("/",async(req,res)=>{
+    res.send("Error is here!");
+})
 app.use("/api/auth",userRouter);
 //connecting the port
 try{
